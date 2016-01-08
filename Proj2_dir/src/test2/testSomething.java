@@ -1,9 +1,10 @@
-package test;
+package test2;
+
 
 import org.junit.AfterClass;
 import org.junit.Test;
 
-public class TestSomething {
+public class testSomething {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
@@ -11,7 +12,7 @@ public class TestSomething {
 
 	@Test
 	public void test() {
-    System.out.println("tested");
+		System.out.println("unit tesing");
 	}
 
 }
